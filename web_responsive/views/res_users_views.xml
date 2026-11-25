@@ -69,8 +69,8 @@
         <field name="arch" type="xml">
             <data>
                 <xpath expr="//group[@name='other_preferences']" position="inside">
-                <field name="is_redirect_home" invisible="action_id" />
-            </xpath>
+                    <field name="is_redirect_home" invisible="action_id" />
+                </xpath>
             </data>
         </field>
     </record>
